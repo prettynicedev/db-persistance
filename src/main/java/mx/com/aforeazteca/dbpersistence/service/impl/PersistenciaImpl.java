@@ -1,12 +1,12 @@
-package com.aforeazteca.dbpersistence.service.impl;
+package mx.com.aforeazteca.dbpersistence.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.aforeazteca.dbpersistence.dao.ConsultaDao;
-import com.aforeazteca.dbpersistence.model.GenericResponse;
-import com.aforeazteca.dbpersistence.model.RequestModel;
-import com.aforeazteca.dbpersistence.service.IPersistencia;
+import mx.com.aforeazteca.dbpersistence.dao.ConsultaDao;
+import mx.com.aforeazteca.dbpersistence.model.GenericResponse;
+import mx.com.aforeazteca.dbpersistence.model.RequestModel;
+import mx.com.aforeazteca.dbpersistence.service.IPersistencia;
 
 @Service
 public class PersistenciaImpl implements IPersistencia{

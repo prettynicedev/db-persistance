@@ -1,9 +1,9 @@
-package com.aforeazteca.dbpersistence.exception;
+package mx.com.aforeazteca.dbpersistence.exception;
 
 import java.util.List;
 
-import com.aforeazteca.dbpersistence.enums.EMensajeException;
-import com.aforeazteca.dbpersistence.model.ApiErrorModel;
+import mx.com.aforeazteca.dbpersistence.enums.EMensajeException;
+import mx.com.aforeazteca.dbpersistence.model.ApiErrorModel;
 
 public class ApiExcepcion extends RuntimeException {
 

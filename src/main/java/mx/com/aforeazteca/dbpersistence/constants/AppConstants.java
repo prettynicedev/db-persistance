@@ -1,4 +1,4 @@
-package com.aforeazteca.dbpersistence.constants;
+package mx.com.aforeazteca.dbpersistence.constants;
 
 /**
  * <b>AppConstants.java</b>

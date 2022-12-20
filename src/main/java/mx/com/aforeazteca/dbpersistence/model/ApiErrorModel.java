@@ -1,4 +1,4 @@
-package com.aforeazteca.dbpersistence.model;
+package mx.com.aforeazteca.dbpersistence.model;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -7,7 +7,7 @@ import java.util.List;
 
 import org.springframework.util.ObjectUtils;
 
-import com.aforeazteca.dbpersistence.enums.EMensajeException;
+import mx.com.aforeazteca.dbpersistence.enums.EMensajeException;
 
 public class ApiErrorModel implements Serializable{
 	

@@ -1,4 +1,4 @@
-package com.aforeazteca.dbpersistence;
+package mx.com.aforeazteca.dbpersistence;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

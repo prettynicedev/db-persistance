@@ -1,4 +1,4 @@
-package com.aforeazteca.dbpersistence.enums;
+package mx.com.aforeazteca.dbpersistence.enums;
 
 public enum EMensajeException {
 	

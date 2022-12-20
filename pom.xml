@@ -8,7 +8,7 @@
 		<version>2.7.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.aforeazteca</groupId>
+	<groupId>mx.com.aforeazteca</groupId>
 	<artifactId>db-persistence</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>

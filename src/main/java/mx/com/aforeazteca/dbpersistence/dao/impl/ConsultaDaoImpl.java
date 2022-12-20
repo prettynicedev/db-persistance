@@ -1,4 +1,4 @@
-package com.aforeazteca.dbpersistence.dao.impl;
+package mx.com.aforeazteca.dbpersistence.dao.impl;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -10,12 +10,12 @@ import org.springframework.jdbc.core.namedparam.SqlParameterSource;
 import org.springframework.jdbc.core.simple.SimpleJdbcCall;
 import org.springframework.stereotype.Repository;
 
-import com.aforeazteca.dbpersistence.constants.AppConstants;
-import com.aforeazteca.dbpersistence.dao.ConsultaDao;
-import com.aforeazteca.dbpersistence.enums.EMensajeException;
-import com.aforeazteca.dbpersistence.exception.ApiExcepcion;
-import com.aforeazteca.dbpersistence.model.GenericResponse;
-import com.aforeazteca.dbpersistence.model.RequestModel;
+import mx.com.aforeazteca.dbpersistence.constants.AppConstants;
+import mx.com.aforeazteca.dbpersistence.dao.ConsultaDao;
+import mx.com.aforeazteca.dbpersistence.enums.EMensajeException;
+import mx.com.aforeazteca.dbpersistence.exception.ApiExcepcion;
+import mx.com.aforeazteca.dbpersistence.model.GenericResponse;
+import mx.com.aforeazteca.dbpersistence.model.RequestModel;
 
 @Repository
 public class ConsultaDaoImpl implements ConsultaDao {

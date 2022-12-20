@@ -1,4 +1,4 @@
-package com.aforeazteca.dbpersistence.model;
+package mx.com.aforeazteca.dbpersistence.model;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 

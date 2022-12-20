@@ -1,4 +1,4 @@
-package com.aforeazteca.dbpersistence.controller;
+package mx.com.aforeazteca.dbpersistence.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.aforeazteca.dbpersistence.model.GenericResponse;
-import com.aforeazteca.dbpersistence.model.RequestModel;
-import com.aforeazteca.dbpersistence.service.IPersistencia;
+import mx.com.aforeazteca.dbpersistence.model.GenericResponse;
+import mx.com.aforeazteca.dbpersistence.model.RequestModel;
+import mx.com.aforeazteca.dbpersistence.service.IPersistencia;
 
 /**
  * <b>HuellasController.java</b>
