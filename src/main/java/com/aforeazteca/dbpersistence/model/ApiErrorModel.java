@@ -12,6 +12,10 @@ import com.aforeazteca.dbpersistence.enums.EMensajeException;
 public class ApiErrorModel implements Serializable{
 	
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	/**
 	 * codigo.
 	 */
 	private String codigo;

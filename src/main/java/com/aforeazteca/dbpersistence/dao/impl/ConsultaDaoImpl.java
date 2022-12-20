@@ -66,12 +66,12 @@ public class ConsultaDaoImpl implements ConsultaDao {
 			
 		}
 		catch (Exception e) {
-//			resp.setMensaje(AppConstants.MSJ_ERROR_SERVER);
-//			resp.setResultado(e.getMessage());
-//			
-//			System.out.println("mensaje : " + e.getMessage());
+			resp.setMensaje(AppConstants.MSJ_ERROR_SERVER);
+			resp.setResultado(e.getMessage());
 			
-			throw new ApiExcepcion(Arrays.asList(AppConstants.MSJ_ERROR_SERVER), EMensajeException.E500);
+			System.out.println("mensaje : " + e.getMessage());
+			
+//			throw new ApiExcepcion(Arrays.asList(AppConstants.MSJ_ERROR_SERVER), EMensajeException.E500);
 		}
 
 		return resp;

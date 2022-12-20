@@ -7,6 +7,11 @@ import com.aforeazteca.dbpersistence.model.ApiErrorModel;
 
 public class ApiExcepcion extends RuntimeException {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	private final EMensajeException option;
 
 	private final ApiErrorModel body;
