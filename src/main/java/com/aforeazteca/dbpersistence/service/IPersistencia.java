@@ -5,7 +5,6 @@ import com.aforeazteca.dbpersistence.model.RequestModel;
 
 public interface IPersistencia {
 	
-	public Object consultaSP(RequestModel model);
-	public GenericResponse<?> consumeSP(RequestModel inpu);
+	public GenericResponse consumeSP(RequestModel inpu);
 
 }

@@ -1,6 +1,5 @@
 package com.aforeazteca.dbpersistence.controller;
 
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,28 +34,29 @@ public class PersistenceController {
 	@Autowired
 	private IPersistencia persistencia;
 	
-	@GetMapping(path = "/user")
-	@ResponseStatus(HttpStatus.OK)
-//	@Profiled
-	public Object consultarUsuario(@RequestBody RequestModel model){
-		LOGGER.info("Controller consultaUsuario init");
-		
-		//init tiempo
-		return persistencia.consultaSP(model);
-		//end tiempo 
-		//end - int 0.01 mm
-	}
+//	@GetMapping(path = "/user")
+//	@ResponseStatus(HttpStatus.OK)
+////	@Profiled
+//	public Object consultarUsuario(@RequestBody RequestModel model){
+//		LOGGER.info("Controller consultaUsuario init");
+//		
+//		//init tiempo
+//		return persistencia.consultaSP(model);
+//		//end tiempo 
+//		//end - int 0.01 mm
+//	}
 	
 	@PostMapping(path="/consumesStoreProc") //poner como constantes
-	public GenericResponse<?> persistenciaBD(@RequestBody RequestModel inpu) {
+	public GenericResponse persistenciaBD(@RequestBody RequestModel inpu) {
 
 		LOGGER.info("Controller persistenciaBD init");
-		GenericResponse<?> respue;
+		GenericResponse respue;
 		
 		respue = persistencia.consumeSP(inpu);
 		
 		System.out.println("**" + respue);
 		
+//		throw new ApiExcepcion(Arrays.asList(AppConstants.MSJ_ERROR_SERVER), EMensajeException.E500);
 		return respue;
 		
 	}

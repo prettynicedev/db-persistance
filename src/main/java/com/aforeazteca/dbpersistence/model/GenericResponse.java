@@ -11,7 +11,7 @@ import com.fasterxml.jackson.annotation.JsonInclude;
  *
  */
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class GenericResponse<T> {
+public class GenericResponse {
 	
 	/**
 	 * mensaje.
@@ -38,7 +38,7 @@ public class GenericResponse<T> {
 	 * @param folio
 	 * @param resultado
 	 */
-	public GenericResponse(String mensaje, String folio, T resultado) {
+	public GenericResponse(String mensaje, String folio, Object resultado) {
 		super();
 		this.mensaje = mensaje;
 		this.folio = folio;
