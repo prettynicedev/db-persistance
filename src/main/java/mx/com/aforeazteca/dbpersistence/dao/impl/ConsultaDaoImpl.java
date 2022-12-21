@@ -58,7 +58,7 @@ public class ConsultaDaoImpl implements ConsultaDao {
 			
 			Object otroResult = simpleJdbcCall1.execute(sqlParameterSource);
 			result = simpleJdbcCall1.execute(sqlParameterSource);
-			System.out.println(otroResult);
+			System.out.println(sqlParameterSource);
 			System.out.println("Resultado de la consulta: " + result);
 			
 			resp.setMensaje(AppConstants.MSJ_OPERACION_EXITOSA);
